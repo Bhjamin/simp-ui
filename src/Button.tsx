@@ -1,3 +1,5 @@
+import { Iconoir } from "iconoir";
+
 const Button = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const Button = () => {
         className=" px-6 py-2 bg-pink-400 rounded-md"
         onClick={() => alert("Hello")}
       >
-        <p className="text-white font-bold text-lg">Hello</p>
+        <Iconoir name="xmark-circle" className="w-6 h-6" color="white" />
       </button>
     </>
   );

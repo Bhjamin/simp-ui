@@ -1,0 +1,26 @@
+{
+  "name": "@simp/ui",
+  "version": "1.0.0",
+  "description": "A simple react ui library",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhjamin",
+  "license": "ISC",
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.7",
+    "@types/react": "^18.3.3",
+    "autoprefixer": "^10.4.19",
+    "framer-motion": "^11.3.19",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.13"
+  }
+}
